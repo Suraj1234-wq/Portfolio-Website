@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  gap: 10px;
+}
+header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.906);
+  height: 150px;
+  color: white;
+}
+.box1 h2 {
+  font-size: 30px;
+}
+.box1 p {
+  font-size: 16px;
+}
+
+/* navbar */
+nav {
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+#About {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#About p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+#Project {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.box2 {
+  margin-top: 20px;
+  height: 100px;
+  border: 1px solid rgba(128, 128, 128, 0.81);
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.box2 p{
+  margin-top: 10px;
+  font-size: 13px;
+}
+/* Services */
+#Service {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+ul {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-left: 25px;
+}
+/* Contact */
+#Contact{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#Contact p {
+  margin-top: 10px;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.818);
+  margin-top: 20px;
+}
